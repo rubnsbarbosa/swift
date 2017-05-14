@@ -8,9 +8,16 @@
  A declaração de constantes e variáveis associam um nome a um valor. O valor da constante não pode ser mudado uma vez que foi atribuido um valor, enquanto que a variável pode ter um valor diferente no futuro.
   
 ### Variáveis
-> **Prática**
+> **Prática:**
 > Vamos declarar uma variável chamada *nomeCompleto* e associar seu nome a ela.
   
 ```swift
 var nomeCompleto = "Rubens Santos Barbosa"
 ```
+  
+Como sabemos as variáveis podem ter seu valor alterado.
+  
+> **Prática:** Vamos agora alterar o valor da variável *nomeCompleto*.
+```swift
+nomeCompleto = "Rubens Barbosa"
+``` 
