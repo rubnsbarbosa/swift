@@ -5,4 +5,12 @@
   
 ## Constantes e Variáveis
   
- A declaração de constantes e variáveis associam um nome a um valor. O valor da constante não pode ser mudado uma vez que foi atribuido um valor, enquanto que a variável pode ter um valor diferente no futuro. 
+ A declaração de constantes e variáveis associam um nome a um valor. O valor da constante não pode ser mudado uma vez que foi atribuido um valor, enquanto que a variável pode ter um valor diferente no futuro.
+  
+### Variáveis
+> **Prática**
+> Vamos declarar uma variável chamada *nomeCompleto* e associar seu nome a ela.
+  
+```swift
+var nomeCompleto = "Rubens Santos Barbosa"
+```
