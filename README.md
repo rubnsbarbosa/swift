@@ -25,9 +25,32 @@ nomeCompleto = "Rubens Barbosa"
 ### Constantes
   
  Para declarar uma constante basta usarmos a palavra reservada *let* ao invés de *var*. Lembrando que as constantes não podem ter seu valor alterado depois de sua primeira atribuição.
-> Sempre que o valor de uma variável não for ser alterado devemos declarar ela como constante.  
+> Sempre que o valor de uma variável não for ser alterado devemos declarar ela como constante com a palavra reservada *let*. Use variáveis somente para armazenar valores que precisam ser alterados.  
 > **Prática:** Vamos criar a constante *nomeCurso* com o nome do seu curso.
   
 ```swift
 let nomeCurso = "Engenharia da Computação"
+```
+  
+> Você pode declarar múltiplas constantes ou múltiplas variáveis em uma única linha, separadas por vírgulas.  
+```swift
+let x = 1, y = 2, z = 3
+```
+  
+  
+## Anotação de tipos e Inferência de tipos
+  
+**Swift** é uma linguagem fortemente tipada e de verificação estática de tipos, por isso o tipo de uma variável não é alterado depois de sua atribuição inicial. Como pode ser observado nos exemplos acima, devido ao mecanismo de *inferência de tipos* não presicamos declarar explicitamente o tipo de cada variável que criamos.
+
+> Na grande maioria das vezes o mecanismo de *inferência de tipos* é capaz de descobrir o tipo correto de uma variável.  
+> **Prática:** Vamos declarar uma constante do tipo String explicitando seu tipo.
+  
+```swift
+let meuGithub: String = "rubnsbarbosa"
+```
+  
+> Podemos definir múltiplas variáveis com o mesmo tipo em uma única linha, separadas por vírgulas, com o único tipo de anotação.
+  
+```swift
+var nomeCompleto, nomeCurso, nomeGit: String
 ```
