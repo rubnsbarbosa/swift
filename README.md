@@ -25,7 +25,7 @@ nomeCompleto = "Rubens Barbosa"
 ### Constantes
   
  Para declarar uma constante basta usarmos a palavra reservada *let* ao invés de *var*. Lembrando que as constantes não podem ter seu valor alterado depois de sua primeira atribuição.
-> Sempre que o valor de uma variável não for ser alterado devemos declarar ela como constante.
+> Sempre que o valor de uma variável não for ser alterado devemos declarar ela como constante.  
 > **Prática:** Vamos criar a constante *nomeCurso* com o nome do seu curso.
   
 ```swift
