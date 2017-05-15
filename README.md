@@ -29,5 +29,5 @@ nomeCompleto = "Rubens Barbosa"
 > **Prática:** Vamos criar a constante *nomeCurso* com o nome do seu curso.
   
 ```swift
-let comeCurso = "Engenharia da Computação"
+let nomeCurso = "Engenharia da Computação"
 ```
