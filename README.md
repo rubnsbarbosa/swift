@@ -5,7 +5,7 @@
   
 ## Constantes e Variáveis
   
- A declaração de constantes e variáveis associam um nome a um valor. O valor da constante não pode ser mudado uma vez que foi atribuido um valor, enquanto que a variável pode ter um valor diferente no futuro.
+ A declaração de constantes e variáveis associam um nome a um valor. O valor da constante não pode ser alterado uma vez que foi atribuido um valor, enquanto que a variável pode ter um valor diferente no futuro.
   
 ### Variáveis
 > **Prática:**
@@ -20,4 +20,14 @@ Como sabemos as variáveis podem ter seu valor alterado.
 > **Prática:** Vamos agora alterar o valor da variável *nomeCompleto*.
 ```swift
 nomeCompleto = "Rubens Barbosa"
-``` 
+```
+  
+### Constantes
+  
+ Para declarar uma constante basta usarmos a palavra reservada *let* ao invés de *var*. Lembrando que as constantes não podem ter seu valor alterado depois de sua primeira atribuição.
+> Sempre que o valor de uma variável não for ser alterado durante seu tempo de vida devemos declarar ela como constante.
+> **Prática:** Vamos criar a constante *nomeCurso* com o nome do seu curso.
+  
+```swift
+let comeCurso = "Engenharia da Computação"
+```
