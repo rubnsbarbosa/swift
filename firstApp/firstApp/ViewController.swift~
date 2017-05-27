@@ -1,0 +1,58 @@
+//
+//  ViewController.swift
+//  firstApp
+//
+//  Created by IFCE on 22/05/17.
+//  Copyright © 2017 IFCE. All rights reserved.
+//
+
+/*
+    fazer o clique no botao mudar outras propriedades do label (p.ex: background e color)
+    fazer o clique no botao mudar propriedades da view (p.ex: color)
+    usar o attributes inspector para alterar propriedades da view e seus componentes
+    investigar o uso do metodo viewDidLoad, na viewController (ciclo de vida do View Controller)
+ */
+
+import UIKit
+
+
+class ViewController: UIViewController {
+    
+    let p = Pessoa(nome: "Rubens", idade: 26, altura: 1.70)
+    
+    @IBOutlet weak var name: UILabel!
+    @IBOutlet weak var idade: UILabel!
+    @IBOutlet weak var altura: UILabel!
+    
+    @IBOutlet weak var meuNome: UILabel!
+    @IBOutlet weak var minhaIdade: UILabel!
+    @IBOutlet weak var minhaAltura: UILabel!
+    
+    @IBAction func exibir(_ sender: Any) {
+        meuNome.text = p.nome
+        minhaIdade.text = String(p.idade)
+        minhaAltura.text = String(p.altura)
+    }
+    
+    @IBAction func limpar(_ sender: Any) {
+        meuNome.text = ""
+        minhaIdade.text = ""
+        minhaAltura.text = ""
+    }
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        let backgd = UIColor(red: 51/255, green: 112/255, blue: 201/255, alpha: 1)
+        view.backgroundColor = backgd
+        // Do any additional setup after loading the view, typically from a nib.
+        
+    }
+
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        // Dispose of any resources that can be recreated.
+    }
+
+
+}
+

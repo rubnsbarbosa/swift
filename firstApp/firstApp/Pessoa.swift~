@@ -1,0 +1,23 @@
+//
+//  Pessoa.swift
+//  firstApp
+//
+//  Created by IFCE on 22/05/17.
+//  Copyright © 2017 IFCE. All rights reserved.
+//
+
+import UIKit
+
+class Pessoa: NSObject {
+
+    let nome: String
+    let idade: Int
+    let altura: Double
+    
+    init(nome: String, idade: Int, altura: Double) {
+        self.nome = nome
+        self.idade = idade
+        self.altura = altura
+    }
+    
+}
