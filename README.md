@@ -2,7 +2,11 @@
 
 # Swift
   
-É a nova linguagem de programação para iOS, OS X, Watch OS e tvOS. Foi criada por [Chris Lattner](https://en.wikipedia.org/wiki/Chris_Lattner) e apresentada em 2014 durante a WWDC. É uma linguagem **multiparadigma** e tem como influência linguagens como: Objective-C, Rust, Haskell entre outras.  
+É a nova linguagem de programação para iOS, OS X, Watch OS e tvOS. Foi criada por [Chris Lattner](https://en.wikipedia.org/wiki/Chris_Lattner) e apresentada em 2014 durante a WWDC. É uma linguagem **multiparadigma** e tem como influência linguagens como: Objective-C, Rust, Haskell entre outras.
+
+# Hands on
+
+![xcode](https://cloud.githubusercontent.com/assets/17646546/26754315/e82ecb7a-484e-11e7-89cc-2deeeb9e9318.png)  
   
 ## Constantes e Variáveis
   
