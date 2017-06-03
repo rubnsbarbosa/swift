@@ -1,10 +1,8 @@
+![swift_logo](https://cloud.githubusercontent.com/assets/17646546/26754296/6db4ef78-484e-11e7-81b3-f32a838140f7.png)
+
 # Swift
   
-É a nova linguagem de programação para iOS, OS X, Watch OS e tvOS. Foi criada por [Chris Lattner](https://en.wikipedia.org/wiki/Chris_Lattner) e apresentada em 2014 durante a WWDC. É uma linguagem **multiparadigma** e tem como influência linguagens como: Objective-C, Rust, Haskell entre outras.
-
-
-![swift_logo](https://cloud.githubusercontent.com/assets/17646546/26754296/6db4ef78-484e-11e7-81b3-f32a838140f7.png)
-  
+É a nova linguagem de programação para iOS, OS X, Watch OS e tvOS. Foi criada por [Chris Lattner](https://en.wikipedia.org/wiki/Chris_Lattner) e apresentada em 2014 durante a WWDC. É uma linguagem **multiparadigma** e tem como influência linguagens como: Objective-C, Rust, Haskell entre outras.  
   
 ## Constantes e Variáveis
   
