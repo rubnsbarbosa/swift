@@ -2,7 +2,9 @@
   
 É a nova linguagem de programação para iOS, OS X, Watch OS e tvOS. Foi criada por [Chris Lattner](https://en.wikipedia.org/wiki/Chris_Lattner) e apresentada em 2014 durante a WWDC. É uma linguagem **multiparadigma** e tem como influência linguagens como: Objective-C, Rust, Haskell entre outras.
 
-![swift](https://cloud.githubusercontent.com/assets/17646546/26754282/fa5de3e0-484d-11e7-833c-8239fcca855d.png)  
+
+![swift_logo](https://cloud.githubusercontent.com/assets/17646546/26754296/6db4ef78-484e-11e7-81b3-f32a838140f7.png)
+  
   
 ## Constantes e Variáveis
   
