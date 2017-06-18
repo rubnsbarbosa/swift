@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A2A9CFFA1ED77B6100B2EF87 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A9CFF91ED77B6100B2EF87 /* AppDelegate.swift */; };
+		A2A9CFFC1ED77B6100B2EF87 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A9CFFB1ED77B6100B2EF87 /* ViewController.swift */; };
+		A2A9CFFF1ED77B6100B2EF87 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2A9CFFD1ED77B6100B2EF87 /* Main.storyboard */; };
+		A2A9D0011ED77B6100B2EF87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2A9D0001ED77B6100B2EF87 /* Assets.xcassets */; };
+		A2A9D0041ED77B6100B2EF87 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2A9D0021ED77B6100B2EF87 /* LaunchScreen.storyboard */; };
+		A2A9D00F1ED77B6100B2EF87 /* megaSenaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A9D00E1ED77B6100B2EF87 /* megaSenaTests.swift */; };
+		A2A9D01A1ED77B6100B2EF87 /* megaSenaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A9D0191ED77B6100B2EF87 /* megaSenaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A2A9D00B1ED77B6100B2EF87 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2A9CFEE1ED77B6100B2EF87 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2A9CFF51ED77B6100B2EF87;
+			remoteInfo = megaSena;
+		};
+		A2A9D0161ED77B6100B2EF87 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2A9CFEE1ED77B6100B2EF87 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2A9CFF51ED77B6100B2EF87;
+			remoteInfo = megaSena;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A2A9CFF61ED77B6100B2EF87 /* megaSena.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = megaSena.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2A9CFF91ED77B6100B2EF87 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A2A9CFFB1ED77B6100B2EF87 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A2A9CFFE1ED77B6100B2EF87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A2A9D0001ED77B6100B2EF87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A2A9D0031ED77B6100B2EF87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A2A9D0051ED77B6100B2EF87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2A9D00A1ED77B6100B2EF87 /* megaSenaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = megaSenaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2A9D00E1ED77B6100B2EF87 /* megaSenaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = megaSenaTests.swift; sourceTree = "<group>"; };
+		A2A9D0101ED77B6100B2EF87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2A9D0151ED77B6100B2EF87 /* megaSenaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = megaSenaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2A9D0191ED77B6100B2EF87 /* megaSenaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = megaSenaUITests.swift; sourceTree = "<group>"; };
+		A2A9D01B1ED77B6100B2EF87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A2A9CFF31ED77B6100B2EF87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2A9D0071ED77B6100B2EF87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2A9D0121ED77B6100B2EF87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A2A9CFED1ED77B6100B2EF87 = {
+			isa = PBXGroup;
+			children = (
+				A2A9CFF81ED77B6100B2EF87 /* megaSena */,
+				A2A9D00D1ED77B6100B2EF87 /* megaSenaTests */,
+				A2A9D0181ED77B6100B2EF87 /* megaSenaUITests */,
+				A2A9CFF71ED77B6100B2EF87 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A2A9CFF71ED77B6100B2EF87 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2A9CFF61ED77B6100B2EF87 /* megaSena.app */,
+				A2A9D00A1ED77B6100B2EF87 /* megaSenaTests.xctest */,
+				A2A9D0151ED77B6100B2EF87 /* megaSenaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A2A9CFF81ED77B6100B2EF87 /* megaSena */ = {
+			isa = PBXGroup;
+			children = (
+				A2A9CFF91ED77B6100B2EF87 /* AppDelegate.swift */,
+				A2A9CFFB1ED77B6100B2EF87 /* ViewController.swift */,
+				A2A9CFFD1ED77B6100B2EF87 /* Main.storyboard */,
+				A2A9D0001ED77B6100B2EF87 /* Assets.xcassets */,
+				A2A9D0021ED77B6100B2EF87 /* LaunchScreen.storyboard */,
+				A2A9D0051ED77B6100B2EF87 /* Info.plist */,
+			);
+			path = megaSena;
+			sourceTree = "<group>";
+		};
+		A2A9D00D1ED77B6100B2EF87 /* megaSenaTests */ = {
+			isa = PBXGroup;
+			children = (
+				A2A9D00E1ED77B6100B2EF87 /* megaSenaTests.swift */,
+				A2A9D0101ED77B6100B2EF87 /* Info.plist */,
+			);
+			path = megaSenaTests;
+			sourceTree = "<group>";
+		};
+		A2A9D0181ED77B6100B2EF87 /* megaSenaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A2A9D0191ED77B6100B2EF87 /* megaSenaUITests.swift */,
+				A2A9D01B1ED77B6100B2EF87 /* Info.plist */,
+			);
+			path = megaSenaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A2A9CFF51ED77B6100B2EF87 /* megaSena */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2A9D01E1ED77B6100B2EF87 /* Build configuration list for PBXNativeTarget "megaSena" */;
+			buildPhases = (
+				A2A9CFF21ED77B6100B2EF87 /* Sources */,
+				A2A9CFF31ED77B6100B2EF87 /* Frameworks */,
+				A2A9CFF41ED77B6100B2EF87 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = megaSena;
+			productName = megaSena;
+			productReference = A2A9CFF61ED77B6100B2EF87 /* megaSena.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A2A9D0091ED77B6100B2EF87 /* megaSenaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2A9D0211ED77B6100B2EF87 /* Build configuration list for PBXNativeTarget "megaSenaTests" */;
+			buildPhases = (
+				A2A9D0061ED77B6100B2EF87 /* Sources */,
+				A2A9D0071ED77B6100B2EF87 /* Frameworks */,
+				A2A9D0081ED77B6100B2EF87 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2A9D00C1ED77B6100B2EF87 /* PBXTargetDependency */,
+			);
+			name = megaSenaTests;
+			productName = megaSenaTests;
+			productReference = A2A9D00A1ED77B6100B2EF87 /* megaSenaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A2A9D0141ED77B6100B2EF87 /* megaSenaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2A9D0241ED77B6100B2EF87 /* Build configuration list for PBXNativeTarget "megaSenaUITests" */;
+			buildPhases = (
+				A2A9D0111ED77B6100B2EF87 /* Sources */,
+				A2A9D0121ED77B6100B2EF87 /* Frameworks */,
+				A2A9D0131ED77B6100B2EF87 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2A9D0171ED77B6100B2EF87 /* PBXTargetDependency */,
+			);
+			name = megaSenaUITests;
+			productName = megaSenaUITests;
+			productReference = A2A9D0151ED77B6100B2EF87 /* megaSenaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A2A9CFEE1ED77B6100B2EF87 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = IFCE;
+				TargetAttributes = {
+					A2A9CFF51ED77B6100B2EF87 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					A2A9D0091ED77B6100B2EF87 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A2A9CFF51ED77B6100B2EF87;
+					};
+					A2A9D0141ED77B6100B2EF87 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A2A9CFF51ED77B6100B2EF87;
+					};
+				};
+			};
+			buildConfigurationList = A2A9CFF11ED77B6100B2EF87 /* Build configuration list for PBXProject "megaSena" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A2A9CFED1ED77B6100B2EF87;
+			productRefGroup = A2A9CFF71ED77B6100B2EF87 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A2A9CFF51ED77B6100B2EF87 /* megaSena */,
+				A2A9D0091ED77B6100B2EF87 /* megaSenaTests */,
+				A2A9D0141ED77B6100B2EF87 /* megaSenaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A2A9CFF41ED77B6100B2EF87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2A9D0041ED77B6100B2EF87 /* LaunchScreen.storyboard in Resources */,
+				A2A9D0011ED77B6100B2EF87 /* Assets.xcassets in Resources */,
+				A2A9CFFF1ED77B6100B2EF87 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2A9D0081ED77B6100B2EF87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2A9D0131ED77B6100B2EF87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A2A9CFF21ED77B6100B2EF87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2A9CFFC1ED77B6100B2EF87 /* ViewController.swift in Sources */,
+				A2A9CFFA1ED77B6100B2EF87 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2A9D0061ED77B6100B2EF87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2A9D00F1ED77B6100B2EF87 /* megaSenaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2A9D0111ED77B6100B2EF87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2A9D01A1ED77B6100B2EF87 /* megaSenaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A2A9D00C1ED77B6100B2EF87 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2A9CFF51ED77B6100B2EF87 /* megaSena */;
+			targetProxy = A2A9D00B1ED77B6100B2EF87 /* PBXContainerItemProxy */;
+		};
+		A2A9D0171ED77B6100B2EF87 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2A9CFF51ED77B6100B2EF87 /* megaSena */;
+			targetProxy = A2A9D0161ED77B6100B2EF87 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A2A9CFFD1ED77B6100B2EF87 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2A9CFFE1ED77B6100B2EF87 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A2A9D0021ED77B6100B2EF87 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2A9D0031ED77B6100B2EF87 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A2A9D01C1ED77B6100B2EF87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A2A9D01D1ED77B6100B2EF87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A2A9D01F1ED77B6100B2EF87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = megaSena/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bepid.megaSena;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A2A9D0201ED77B6100B2EF87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = megaSena/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bepid.megaSena;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		A2A9D0221ED77B6100B2EF87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = megaSenaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bepid.megaSenaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/megaSena.app/megaSena";
+			};
+			name = Debug;
+		};
+		A2A9D0231ED77B6100B2EF87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = megaSenaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bepid.megaSenaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/megaSena.app/megaSena";
+			};
+			name = Release;
+		};
+		A2A9D0251ED77B6100B2EF87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = megaSenaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bepid.megaSenaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = megaSena;
+			};
+			name = Debug;
+		};
+		A2A9D0261ED77B6100B2EF87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = megaSenaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bepid.megaSenaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = megaSena;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A2A9CFF11ED77B6100B2EF87 /* Build configuration list for PBXProject "megaSena" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2A9D01C1ED77B6100B2EF87 /* Debug */,
+				A2A9D01D1ED77B6100B2EF87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2A9D01E1ED77B6100B2EF87 /* Build configuration list for PBXNativeTarget "megaSena" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2A9D01F1ED77B6100B2EF87 /* Debug */,
+				A2A9D0201ED77B6100B2EF87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A2A9D0211ED77B6100B2EF87 /* Build configuration list for PBXNativeTarget "megaSenaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2A9D0221ED77B6100B2EF87 /* Debug */,
+				A2A9D0231ED77B6100B2EF87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A2A9D0241ED77B6100B2EF87 /* Build configuration list for PBXNativeTarget "megaSenaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2A9D0251ED77B6100B2EF87 /* Debug */,
+				A2A9D0261ED77B6100B2EF87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A2A9CFEE1ED77B6100B2EF87 /* Project object */;
+}
