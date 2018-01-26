@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AhK-yy-KRs">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Twitter ADA-->
+        <scene sceneID="Wdz-um-Ral">
+            <objects>
+                <tableViewController id="xt4-sa-DsD" customClass="MessagesController" customModule="TwitterADA" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="qpG-MK-yR0">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="MessageCell" textLabel="5Mt-W0-IqV" detailTextLabel="VJc-63-hrL" style="IBUITableViewCellStyleSubtitle" id="qcn-s8-osF">
+                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="qcn-s8-osF" id="yU1-ol-CGx" customClass="CustomTableViewCell" customModule="TwitterADA" customModuleProvider="target">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="5Mt-W0-IqV">
+                                            <rect key="frame" x="15" y="5" width="33.5" height="20.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Subtitle" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="VJc-63-hrL">
+                                            <rect key="frame" x="15" y="25.5" width="44" height="14.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="xt4-sa-DsD" id="MgA-eJ-BTI"/>
+                            <outlet property="delegate" destination="xt4-sa-DsD" id="wpE-jq-oYT"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Twitter ADA" id="0o4-WX-Tzh">
+                        <barButtonItem key="leftBarButtonItem" systemItem="search" id="dAw-Ir-cDk">
+                            <connections>
+                                <segue destination="Hoa-V1-FmS" kind="show" id="vQC-XD-f6h"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="kOg-VA-rQH">
+                            <connections>
+                                <action selector="didTapAddMessage:" destination="xt4-sa-DsD" id="rL8-12-RMo"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="TwitterTableView" destination="qpG-MK-yR0" id="9sq-ce-Yc6"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="g9p-ia-BBk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="649" y="846"/>
+        </scene>
+        <!--Map View Controller-->
+        <scene sceneID="pPU-5h-KSG">
+            <objects>
+                <viewController id="Hoa-V1-FmS" customClass="MapViewController" customModule="TwitterADA" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="eWW-3s-ZJM"/>
+                        <viewControllerLayoutGuide type="bottom" id="JHU-g9-j3k"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8WW-kK-APL">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="2Fz-5B-73b">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                            </mapView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="2Fz-5B-73b" firstAttribute="bottom" secondItem="JHU-g9-j3k" secondAttribute="top" id="6q2-4t-Csu"/>
+                            <constraint firstItem="2Fz-5B-73b" firstAttribute="leading" secondItem="8WW-kK-APL" secondAttribute="leading" id="FRe-e5-4BZ"/>
+                            <constraint firstAttribute="trailing" secondItem="2Fz-5B-73b" secondAttribute="trailing" id="Uee-IW-Sv3"/>
+                            <constraint firstItem="2Fz-5B-73b" firstAttribute="top" secondItem="eWW-3s-ZJM" secondAttribute="bottom" id="b1f-2H-hcI"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="mapView" destination="2Fz-5B-73b" id="nfp-BX-WbY"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ly6-r3-R3P" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1589.5999999999999" y="844.22788605697156"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="hXz-EH-tJe">
+            <objects>
+                <navigationController id="AhK-yy-KRs" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Xek-IF-Hlo">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="xt4-sa-DsD" kind="relationship" relationship="rootViewController" id="Oa3-uE-tuv"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HQD-nk-Zx5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-305" y="846"/>
+        </scene>
+    </scenes>
+</document>
